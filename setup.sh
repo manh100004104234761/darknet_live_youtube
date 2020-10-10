@@ -6,8 +6,10 @@ download_file_ggdrive() {
     fi
 }
 
+mkdir - p ./data
+
 mkdir - p ./models
-download_file_ggdrive 1xQnF5uK8IB1p2dJy5iRKR-pKbC6vYu7f ./models/yolov4.weights
+download_file_ggdrive 1wHhhJzkcHjdFjD8faA8Ur2DR8RenPXdj ./models/vizyal.weights
 
 conda create --name vizyal python=3.8.5 -y
 eval "$(conda shell.bash hook)"

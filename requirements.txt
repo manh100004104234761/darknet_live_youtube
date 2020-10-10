@@ -1,0 +1,3 @@
+opencv-python==4.4.0.44
+opencv-contrib-python==4.4.0.44
+youtube-dl==2020.9.20
